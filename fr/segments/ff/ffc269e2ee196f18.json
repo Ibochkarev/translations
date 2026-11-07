@@ -1,0 +1,15 @@
+{
+  "hash": "ffc269e2ee196f18",
+  "source": "If set to {0}, this will type check in development and at build time. Set to {1} to type check only when building, or {2} to type check only in the dev server. Requires installing {3} and {4} as dev dependencies.",
+  "text": "Si cette option est définie sur {0}, la vérification des types sera effectuée en développement et au moment du build. Définissez-la sur {1} pour ne vérifier les types que lors du build, ou sur {2} pour ne vérifier les types que dans le serveur de développement. Nécessite d'installer {3} et {4} comme dépendances de développement.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "update",
+  "prev": "a6cc4fd96ab6a611",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si cette option est définie sur {0}, la vérification des types sera effectuée en développement et au moment du build. Définissez-la sur {1} pour ne vérifier les types que lors du build, ou sur {2} pour ne vérifier les types que dans le serveur de développement. Nécessite d'installer {3} et {4} comme dépendances de développement."
+  },
+  "updatedAt": "2026-11-07T16:02:07.587Z"
+}

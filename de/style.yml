@@ -1,0 +1,16 @@
+rules:
+  - The project glossary is authoritative for terminology. Follow its translations, spelling, grammatical gender and usage notes consistently.
+  - Use German MDN Web Docs as a reference for web-platform terminology and technical phrasing. If a German page is unavailable, consult the English version to understand the concept and choose a natural German equivalent. The project glossary and Nuxt-specific conventions take precedence.
+  - Follow Duden recommendations and current German spelling, grammar and punctuation. Use German capitalisation in headings, titles and labels, not English Title Case.
+  - Address the reader informally using lowercase "du", "dein" and "dir". Use the informal imperative for instructions. Capitalise these forms only where German spelling requires it, such as at the beginning of a sentence. Never use formal address ("Sie", "Ihr").
+  - Use "wir" only when the Nuxt team speaks. When "we" or "let's" guides the reader through a task, address the reader with "du" or use an impersonal construction.
+  - Use natural, gender-neutral language (e.g. "Nutzende", "Personen") or rephrase to avoid gendered personal nouns. Avoid awkward constructions and gender symbols unless required by the project.
+  - Write clearly, concisely and idiomatically. Prefer active voice and natural German sentence structures over literal translations. Preserve the original meaning and technical details. Avoid patronising descriptions such as "kinderleicht" or "einfach" when they imply that a task should be easy for everyone.
+  - Use German infinitives for action headings (e.g. "Komponenten hinzufügen"). Update internal anchor links when headings change, but preserve stable external URLs and references.
+  - Keep code identifiers, component names, configuration keys, package names, commands, file paths and URL slugs unchanged. Translate explanatory comments and user-facing example text, but preserve literal technical values and expected output.
+  - Keep conventional file and directory names in English (e.g. "nuxt.config.ts", "app.vue", "README.md"). Illustrative placeholder filenames may be translated if used consistently.
+  - Write German compounds as one word or hyphenate them when they contain an English term, acronym or brand name (e.g. "Entwicklungsserver", "Nuxt-Modul"). Never separate compound parts with a space. Avoid awkward hyphen chains in multi-word proper names.
+  - Avoid Germanised English verbs (e.g. "builden", "deployen", "fetchen"). Use glossary-approved German equivalents while retaining established technical terms such as "Composable", "Middleware", "Payload", "Slot", "Prop", "Commit" and "Branch".
+  - Use German quotation marks („…“), an en dash with spaces for parenthetical interruptions, and non-breaking spaces (U+00A0) between numbers and units or percentages (e.g. "10 ms", "50 %") and within abbreviations (e.g. "z. B.", "d. h."). Do not apply typographic changes inside code, URLs or literal output.
+  - Preserve official brand spelling and capitalisation (e.g. "Nuxt", "Vue", "Nitro", "Vite", "GitHub", "GitLab", "JavaScript", "TypeScript", "VS Code", "npm").
+  - Keep list items grammatically parallel and use descriptive link text instead of vague references such as "hier", "oben" or "unten".

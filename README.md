@@ -1,6 +1,6 @@
 # Nuxt translations
 
-Translations of the Nuxt documentation, maintained with [diglot](https://github.com/danielroe/diglot). French is the first locale.
+Translations of the Nuxt documentation, maintained with [diglot](https://github.com/danielroe/diglot). The locales are French and German.
 
 To contribute a translation, see [`CONTRIBUTING.md`](./CONTRIBUTING.md); discussion happens in [this thread](https://github.com/nuxt/translations/discussions/8).
 
@@ -119,6 +119,23 @@ The workflow then writes no new records for that locale. Existing records remain
 - A narrow no-break space (U+202F) before `;`, `:`, `!`, `?` and `»`, and after `«`. Machine output gets it from `typography` in [`fr/style.yml`](./fr/style.yml).
 
 Terminology is in [`glossary.yml`](./glossary.yml) and [`fr/glossary.yml`](./fr/glossary.yml).
+
+## German style
+
+- Address the reader informally using lowercase `du`, `dein` and `dir`; use the informal imperative for instructions. Capitalise these forms where required by German spelling, such as at the beginning of a sentence. Never use formal address (`Sie`, `Ihr`).
+- Use `wir` only when the Nuxt team speaks; a "we" or "let's" that walks the reader through a step becomes `du` or an impersonal form.
+- Use German capitalisation in headings, titles and labels, not English Title Case.
+- Use gender-neutral and inclusive language where natural (e.g. `Nutzende` instead of `Benutzer`).
+- Keep code identifiers, file names, package names and configuration keys in English; translate explanatory comments and user-facing example strings.
+- Write German compounds as one word or hyphenate them when they contain an English term or brand name (`Entwicklungsserver`, `Nuxt-Modul`); never separate them with a space.
+- Avoid Denglisch verbs (`builden`, `deployen`); use German equivalents where available, while retaining established technical terms.
+- Use German quotation marks (`„…“`) for quoted prose.
+- Use non-breaking spaces where appropriate, e.g. between numbers and units or percentages (`10 ms`, `50 %`) and within abbreviations (`z. B.`, `d. h.`).
+- Keep list items within the same list grammatically consistent.
+- Use the German [MDN Web Docs](https://developer.mozilla.org/de/) as a reference for established web-platform terminology and technical phrasing. If a German MDN page is unavailable, consult the English page for the technical meaning and choose a natural German equivalent.
+- The project glossary is authoritative for project terminology. Follow it consistently; MDN is a reference, not a replacement for the glossary.
+
+Style rules are in [`de/style.yml`](./de/style.yml); terminology is in [`glossary.yml`](./glossary.yml) and [`de/glossary.yml`](./de/glossary.yml).
 
 ## License
 

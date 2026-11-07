@@ -1,0 +1,15 @@
+{
+  "hash": "54609d7d43b0c0f2",
+  "source": "Enable type checking.",
+  "text": "Active la vérification des types.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "update",
+  "prev": "08bc04c68d3b5dc9",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Active la vérification des types."
+  },
+  "updatedAt": "2026-11-07T16:02:07.587Z"
+}

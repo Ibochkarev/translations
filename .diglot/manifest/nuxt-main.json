@@ -2,7 +2,7 @@
   "version": 1,
   "source": "nuxt-main",
   "ref": "main",
-  "sha": "e3875e81b1e5e6412aa77c34ec4060f29f3d0536",
+  "sha": "e36633e8209b7a410e44543cc4fb826cb0b510d5",
   "policy": "f6e446c627d4102c",
   "files": {
     "docs/.navigation.yml": [
@@ -3472,6 +3472,7 @@
       {"hash":"9c8ddac7d4552075","kind":"paragraph","format":"markdown","words":7,"skeleton":"Then, run {0} command to check your types:","placeholders":["link"]},
       {"hash":"14a99b9f9dea3897","kind":"code-label","format":"plain","words":1,"skeleton":"Terminal"},
       {"hash":"c7c9db8e244c16c6","kind":"paragraph","format":"markdown","words":17,"skeleton":"To enable type-checking at build or development time, you can also use the {0} option in your {1} file:","placeholders":["link","code"]},
+      {"hash":"c40c0bbf57d9926b","kind":"paragraph","format":"markdown","words":23,"skeleton":"Set {0} to {1} to type-check only when building, or {2} to type-check only in the dev server (for example, so CI can run {3} separately from {4}).","placeholders":["code","code","code","code","code"]},
       {"hash":"4107f4ba30fccb3a","kind":"heading","format":"markdown","words":2,"skeleton":"Auto-generated Types"},
       {"hash":"236cd23f4dccd861","kind":"paragraph","format":"markdown","words":38,"skeleton":"Nuxt projects rely on auto-generated types to work properly. These types are stored in the {0} directory and are generated when you run the dev server or build your application. You can also generate these files manually by running {1}.","placeholders":["link","code"]},
       {"hash":"72288c076962ed58","kind":"paragraph","format":"markdown","words":26,"skeleton":"The generated {0} files inside the {1} directory include **recommended basic TypeScript configuration** for your project, references to {2}auto-imports{/2}, {3}API route types{/3}, path aliases like {4}, {5}, or {6}, and more.","placeholders":["code","link","link","link","code","code","code"]},
@@ -10651,8 +10652,8 @@
       {"hash":"b5cfd42716b823b3","kind":"paragraph","format":"markdown","words":71,"skeleton":"You can extend the generated tsconfig files with shared options using this option. {0} apply to all generated tsconfigs ({1}, {2}, {3} and {4}), while {5}, {6} and {7} apply only to {8} (and the legacy {9}). Two groups of {10} are exceptions: DOM- and Vue-specific options (such as {11}, {12} and {13}) apply only to {14}, and {15}, {16} and {17} are managed by Nuxt per context, so they cannot be set globally for the {18}, {19} and {20} tsconfigs. Use {21}, {22}, {23} or {24} for context-specific overrides; they take precedence over this option.","placeholders":["code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code","code"]},
       {"hash":"a65e6acf430b25f5","kind":"paragraph","format":"markdown","words":4,"skeleton":"**See**: {0}tsconfig.json information{/0}","placeholders":["link"]},
       {"hash":"a00644508de97e85","kind":"heading","format":"markdown","words":0,"skeleton":"{0}","placeholders":["code"]},
-      {"hash":"08bc04c68d3b5dc9","kind":"paragraph","format":"markdown","words":4,"skeleton":"Enable build-time type checking."},
-      {"hash":"a6cc4fd96ab6a611","kind":"paragraph","format":"markdown","words":29,"skeleton":"If set to true, this will type check in development. You can restrict this to build-time type checking by setting it to {0}. Requires to install {1} and {2} as dev dependencies.","placeholders":["code","code","code"]},
+      {"hash":"54609d7d43b0c0f2","kind":"paragraph","format":"markdown","words":3,"skeleton":"Enable type checking."},
+      {"hash":"ffc269e2ee196f18","kind":"paragraph","format":"markdown","words":36,"skeleton":"If set to {0}, this will type check in development and at build time. Set to {1} to type check only when building, or {2} to type check only in the dev server. Requires installing {3} and {4} as dev dependencies.","placeholders":["code","code","code","code","code"]},
       {"hash":"332c963f865ed314","kind":"list-item","format":"markdown","words":1,"skeleton":"**Type**: {0}","placeholders":["code"]},
       {"hash":"208a46c5715f5991","kind":"list-item","format":"markdown","words":1,"skeleton":"**Default:** {0}","placeholders":["code"]},
       {"hash":"e213b1f05363da8d","kind":"paragraph","format":"markdown","words":4,"skeleton":"**See**: {0}Nuxt TypeScript docs{/0}","placeholders":["link"]},

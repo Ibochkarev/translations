@@ -1,0 +1,14 @@
+{
+  "hash": "c40c0bbf57d9926b",
+  "source": "Set {0} to {1} to type-check only when building, or {2} to type-check only in the dev server (for example, so CI can run {3} separately from {4}).",
+  "text": "Définissez {0} sur {1} pour ne vérifier les types que lors du build, ou sur {2} pour ne les vérifier que dans le serveur de développement (par exemple, pour que la CI puisse exécuter {3} séparément de {4}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Définissez {0} sur {1} pour ne vérifier les types que lors du build, ou sur {2} pour ne les vérifier que dans le serveur de développement (par exemple, pour que la CI puisse exécuter {3} séparément de {4})."
+  },
+  "updatedAt": "2026-11-07T16:02:07.587Z"
+}
